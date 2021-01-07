@@ -21,6 +21,7 @@ them which sort of acts like a wall. If a bike collides with the trail of the ot
 player which collides loses. Similarly, if a tron collides with its own trail, it also loses and the
 game ends. The game also ends if it collides with the border of the game as it's not allowed to
 go outside it.
+
 Class Diagram:
 ![A test image](image.png)
 
