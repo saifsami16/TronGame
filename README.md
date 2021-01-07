@@ -14,6 +14,8 @@ the 10 best scores. Also, create a menu item which restarts the game.
 
 
 ## Description:
+Class Diagram:
+![UML Diagram](uml.png)
 
 We have to create a tron game based on the game played in the movie Tron. The original idea
 is to create two players who have their individual bikes. The bikes each leave a trail behind
@@ -21,9 +23,6 @@ them which sort of acts like a wall. If a bike collides with the trail of the ot
 player which collides loses. Similarly, if a tron collides with its own trail, it also loses and the
 game ends. The game also ends if it collides with the border of the game as it's not allowed to
 go outside it.
-
-Class Diagram:
-![UML Diagram](uml.png)
 
 Function Description:
 
