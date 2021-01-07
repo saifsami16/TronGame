@@ -25,22 +25,27 @@ Class Diagram:
 ![A test image](image.png)
 
 Function Description:
+
 TronGameGUI():
 The function is the constructor of the class TronGameGUI and will build up the board and the
 panel and the frame. It will also initiate an instance of the GameEngine class. This function will
 ask the user for all his information and the trons color. We can also use it to display the
 highscores of the players which are stored in the database. We are also adding a menu in this
 function which we can use to perform different operations.
+
 GameEngine():
 Game Engine() is the constructor of Game Engine class used for initializing instances of the
 Trons. All the key listeners are also used in this class. We are also creating instances of other
 classes there. The database is also being managed in this class.
+
 HighScore:
 HighScore is another class which is used to store the name and score of the player. We also
 have getters and setters in this class.
+
 Tron:
 Tron class is used to store the properties of the tron player e.g Color, name, size, their last
 traversed positions.
+
 Move:
 Move class is used for updating the positions of the Tron in the Array and update where the
 Tron will have to move.
