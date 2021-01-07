@@ -23,7 +23,7 @@ game ends. The game also ends if it collides with the border of the game as it's
 go outside it.
 
 Class Diagram:
-![A test image](image.png)
+![UML Diagram](uml.png)
 
 Function Description:
 
